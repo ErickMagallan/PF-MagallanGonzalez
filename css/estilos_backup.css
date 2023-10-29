@@ -1,0 +1,145 @@
+
+/*Estilos de fuente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+h1{
+    font-size: 96px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fuenteSecciones{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Estilos de fondos*/
+
+.colorFondoGris{
+    background-color: rgb(242, 244, 248);
+    height: 975px;
+}
+.colorFondoTour{
+    background-color: rgb(242, 244, 248);
+    height: 275px;
+}
+.colorFondoFooter{
+    background-color: #697077;
+    height: 252px;
+}
+.colorFondoRosa{
+    background-color: pink;
+}
+.colorFuenteBlanca{
+    color:white
+}
+
+.main .colorFondoGris{
+    background-color: red;
+}
+.padre{
+    color:blue
+}
+.hijo{
+    color:chocolate
+}
+
+.listaNav{
+    list-style: none;/*Esto es para quitarle el estilo predeterminado a toda la lista*/
+}
+
+
+.listaNav li{
+    display: block; /*Este es el valor por defecto*/
+    display: inline; /*Este es el valor que lo reemplaza y lo pisa (cascada)*/
+}
+.listaFooter{
+    list-style: none;/*Esto es para quitarle el estilo predeterminado a toda la lista*/
+}
+.listaFooter li{
+    display: block; /*Este es el valor por defecto*/
+    display: inline; /*Este es el valor que lo reemplaza y lo pisa (cascada)*/
+}
+.linkNav{
+    display: inline; /*block - flexi - grid - inline - inline-block*/
+    text-decoration: none; /*Esto es para quitarle el subrayado a los enlaces*/
+    color: black;
+}
+.linkFooter{
+    display: inline; /*block - flexi - grid - inline - inline-block*/
+    text-decoration: none; /*Esto es para quitarle el subrayado a los enlaces*/
+    color: white;
+}
+
+/*Estilos de imagenes*/
+/*¿Es necesario hacer una clase para cada imagen? si no, ¿Cómo puedo cambiar la imagen?*/
+
+.imagenFondo{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/img/foto.jpeg);
+    background-position: center;
+}
+
+.heroSection{
+    width: 100%;
+    height: 814px;
+    background-image: url(../assets/img/inicio.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagenIntegrantes{
+    width: 308px;
+    height: 303px;
+    align-items: center;
+    background-image: inherit;
+}
+
+.headGaleria{
+    width: 100%;
+    height: 814px;
+    background-image: url(../assets/img/photoshoot.jpeg);
+    background-position: center;
+    background-position: inherit;
+}
+.headHistoria{
+    width: 100%;
+    height: 814px;
+    background-image: url(../assets/img/Historia.jpeg);
+    background-position: center;
+    background-position: inherit;
+}
+.headTour{
+    width: 100%;
+    height: 814px;
+    background-image: url(../assets/img/tour.webp);
+    background-position: center;
+    background-position: inherit;
+}
+.headContacto{
+    width: 100%;
+    height: 814px;
+    background-image: url(../assets/img/contacto.jpeg);
+    background-position: center;
+    background-position: inherit;
+}
