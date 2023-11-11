@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    padding: 48px 0;
+    background-color: #697077;
+    .footer-sections a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: $padding-small;
+        margin: 0 1rem;
+        text-decoration: none;
+        color: $color-blanco;
+    }
+    .footer-social i {
+        margin: 0 1rem;
+        padding-top: $gap-general;
+    }
+    .footer-copyright {
+        margin-top: 1.5rem;
+        font-size: 0.75rem;
+        color: $color-blanco;
+    }
+}

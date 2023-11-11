@@ -1,0 +1,30 @@
+.heroHistoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    background-image: url(../assets/img/headHistoria.jpg);
+    background-size: cover;
+    color: $color-blanco;
+}
+.logrosNeckDeep{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1440px;
+    height: auto;
+    padding: 96px;
+    align-items: center;
+    gap: $gap-general;
+    flex-shrink: 0;
+}
+.videoHistoria{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: $padding-grande;
+    align-items: center;
+    gap: 64px;
+    flex-shrink: 0;
+    background-color: $background-color-general;
+}

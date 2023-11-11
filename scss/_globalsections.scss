@@ -1,0 +1,16 @@
+.sectionTour{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: $padding-grande;
+    background-color:  $background-color-general;
+}
+.newsletterSuscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: $padding-grande;
+    background-color: $background-color-general;
+}

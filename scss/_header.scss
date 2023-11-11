@@ -1,0 +1,19 @@
+.navbar {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: $espaciado-3;
+    padding-right: $espaciado-3;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    .imgLogo{
+      width: 149px;
+      display: flex;
+    }
+  }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: $padding-small;
+    padding-left: $padding-small;
+  }
