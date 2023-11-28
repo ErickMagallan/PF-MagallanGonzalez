@@ -350,4 +350,18 @@ h3 {
   background-color: rgb(242, 244, 248);
 }
 
+.headError {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/img/headerror.png");
+  background-size: cover;
+  color: #ffffff;
+}
+.headError .content {
+  text-align: center;
+  padding: 80px;
+}
+
 /*# sourceMappingURL=estilos.css.map */

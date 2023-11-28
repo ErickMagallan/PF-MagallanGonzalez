@@ -1,0 +1,14 @@
+.headError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/img/headerror.png');
+    background-size: cover;
+    color: $color-blanco;
+
+    .content {
+        text-align: center;
+        padding: $padding-grande;
+    }
+}
