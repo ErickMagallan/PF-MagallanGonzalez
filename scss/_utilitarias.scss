@@ -44,7 +44,7 @@ h3{
 
 .img-galeria {
     width: 308px;
-    max-width: 308px; /* Ajuste el tamaño máximo según sea necesario */
+    max-width: 308px;
     height: 308px;
     object-fit: cover;
 }
@@ -117,7 +117,7 @@ h3{
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-bottom: 56.25%; /* Proporción original del video (9:16) */
+    padding-bottom: 56.25%;
 }
 
 .responsive-video iframe {
@@ -187,14 +187,14 @@ h3{
         flex: 0 0 100%;
     }
     .responsive-video iframe {
-        margin: 0 auto; /* Centrar el iframe */
+        margin: 0 auto;
         display: block;
     }
     .logrosNeckDeep {
-        padding: 16px; /* Ajuste del espacio interno en la versión móvil */
+        padding: 16px;
     }
 
     .cardIntegrantes {
-        margin-bottom: 16px; /* Espacio entre las tarjetas en la versión móvil */
+        margin-bottom: 16px;
     }
 }

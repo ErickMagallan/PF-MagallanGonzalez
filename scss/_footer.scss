@@ -7,28 +7,27 @@ footer {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: $padding-small;
-        margin: 0 0.5rem; /* Espaciado lateral ajustado */
+        margin: 0 0.5rem;
         padding: 0.5rem;
         text-decoration: none;
         color: $color-blanco;
     }
 
     .footer-social i {
-        margin: 0 0.5rem; /* Espaciado lateral ajustado */
+        margin: 0 0.5rem;
         padding-top: $gap-general;
-    }
+     }
 
     .footer-copyright {
         margin-top: 1.5rem;
         font-size: 0.75rem;
         color: $color-blanco;
-    }
+     }
 
-    /* Media Query para dispositivos móviles (768px hacia abajo) */
     @media (max-width: 768px) {
         .footer-sections a,
         .footer-social i {
-            margin: 0.5rem; /* Aumenta el espacio entre elementos */
-        }
-    }
+            margin: 0.5rem;
+        }   
+     }
 }
