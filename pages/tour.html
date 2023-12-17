@@ -45,23 +45,22 @@
               </nav>
         </head>
         <main>
-          <section class="heroTour">
-            <div class="row-cols-1" style="padding-left: 80px; padding-right: 80px; padding-top: 160px;
-            padding-bottom: 160px;">
+          <section class="heroTour" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+            <div class="col-md-6 text-md-start text-sm-center heroContent" style="padding-left: 80px; padding-right: 80px; padding-top: 160px; padding-bottom: 80px;">
                 <h1 style="margin-bottom: 2rem;">Tour 2024</h1>
-                <p>¡El esperado Tour 2024 ha aterrizado en Latinoamérica! No pierdas la oportunidad de ser parte de esta experiencia inigualable. Mantente al tanto de las fechas y asegura tu lugar adquiriendo tus boletos con anticipación.</p>
+                <p style="margin-bottom: 1rem;">¡El esperado Tour 2024 ha aterrizado en Latinoamérica! No pierdas la oportunidad de ser parte de esta experiencia inigualable. Mantente al tanto de las fechas y asegura tu lugar adquiriendo tus boletos con anticipación.</p>
             </div>   
-            <img class="row-cols-1" src="../assets/img/BenTour.png" alt="Ben Barlow cantando">
+            <img class="col-md-6 img-fluid" src="../assets/img/BenTour.png" alt="Ben Barlow cantando">
           </section>
 
             <!--Fechas del tour-->
             
             <section class="fechasTour">
-                <div style="margin-left: 64px; margin-right: 64px; padding-bottom: 3rem;">
-                    <h5 style="color: #001D6C; font-size: 20px; font-weight: 700; padding-bottom: 0.5rem;">Tour Latinoamérica 2024</h5>
-                    <h2>¡Ya disponibles las fechas del Tour 2024 en Latinoamérica!</h2>
-                </div>
-                <div class="row" style="padding-bottom: 3rem;gap: 1rem;">
+              <div style="margin-left: 16px; margin-right: 16px; padding-bottom: 3rem; text-align: center;">
+                  <h5 style="color: #001D6C; font-size: 20px; font-weight: 700; padding-bottom: 0.5rem;">Tour Latinoamérica 2024</h5>
+                  <h2>¡Ya disponibles las fechas del Tour 2024 en Latinoamérica!</h2>
+              </div>
+              <div class="row" style="padding-bottom: 3rem; gap: 1rem; justify-content: center;">
                     <div class="card col-md-6" style="width: 416px; height: 450px;">
                         <img src="../assets/img/Fechas/Leeds.jpeg" class="card-img-top" alt="The Key Club">
                         <div class="card-body" style="text-align: start;">
@@ -149,21 +148,21 @@
   
             <!--Sección de newsletter-->
             <section class="newsletterSuscribe" style="gap: 1rem;">
-                <div style="margin-left: 64px; margin-right: 64px;">
-                    <h5 style="color: #001D6C; font-size: 20px; font-weight: 700; padding-bottom: 0.25rem;">Newsletter</h5>
-                    <h2>Suscríbete a nuestro newsletter</h2>
-                </div>
-                <p style="padding-bottom: 1rem; width: 900px;">¡Deja de ser espectador y forma parte de la comunidad más grande de Pop Punk en todo el mundo!</p>
+              <div style="margin-left: 16px; margin-right: 16px; text-align: center;">
+                  <h5 style="color: #001D6C; font-size: 20px; font-weight: 700; padding-bottom: 0.25rem;">Newsletter</h5>
+                  <h2>Suscríbete a nuestro newsletter</h2>
+                  <p style="padding-bottom: 1rem; max-width: 100%;">¡Deja de ser espectador y forma parte de la comunidad más grande de Pop Punk en todo el mundo!</p>
                   <form>
-                    <div class="mb-3" style="display: flex; flex-direction: row; gap: 1rem; width: 452px;">
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email aquí">
-                      <a class="btn btn-primary" href="./404.html" role="button">Suscríbeme</a>
-                    </div>
+                      <div class="mb-3" style="display: flex; flex-direction: column; gap: 1rem; max-width: 100%; align-items: center; margin: 0 auto;">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email aquí" style="max-width: 100%;">
+                          <a class="btn btn-primary" href="./404.html" role="button" style="width: 100%;">Suscríbeme</a>
+                      </div>
                   </form>
                   <p style="color: gray; font-size: 14px; padding-bottom: 0.5rem;">Puedes cancelar tu suscripción en el momento que quieras.</p>
-                  <p style="color: gray; font-size: 14px; text-decoration: underline;">Cancelar suscripción</p>  
-                </div>
-            </section>
+                  <p style="color: gray; font-size: 14px; text-decoration: underline;">Cancelar suscripción</p>
+              </div>
+          </section>
+          
         </main>
         <footer>
             <div class="footer-sections">
@@ -184,6 +183,6 @@
                 Neck Deep UK © 2023. Todos los derechos reservados.
             </div>
         </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
    <body>
 </html>

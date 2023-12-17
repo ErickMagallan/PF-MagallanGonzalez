@@ -25,9 +25,27 @@ h3{
     background-color: $background-color-general;
     height: 975px;
 }
-.img-galeria{
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: $padding-grande;
+    margin-bottom: $padding-grande;
+}
+
+.galeriaInicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: $gap-general;
+}
+
+.img-galeria {
     width: 308px;
-    height: 303px;
+    max-width: 308px; /* Ajuste el tamaño máximo según sea necesario */
+    height: 308px;
     object-fit: cover;
 }
 .col-md-4 {
@@ -59,47 +77,14 @@ h3{
     align-items: center;
     object-fit: cover;
 }
-.galeria{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: auto;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    margin-top: $padding-grande;
-    margin-bottom: $padding-grande;
-    gap: $gap-general;
-}
-.galeriaInicio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    row-gap: $gap-general;
-    column-gap: 1.5rem;
-}
-.galeria1{
-    display: flex;
-    justify-content: center;
-    height: auto;
-    align-items: center;
-    gap: $padding-grande;
-    flex-shrink: 0;
-}
-.galeria1 img{
-    width: 600px;
-    height: 420px;
-    object-fit: cover;
-    border-radius: 20px;
-}
+
 .cardIntegrantes {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 410px;
-  }
+    width: 100%;
+    max-width: 410px;
+}
 .card-text:last-child {
     margin-bottom: 0;
     font-size: small;
@@ -119,7 +104,7 @@ h3{
 .card-body {
     flex: 1 1 auto;
     padding: 1rem 1rem 0.5rem 0.5rem;
-  }
+}
 .card-img,
 .card-img-top {
   height: 220px;
@@ -130,14 +115,86 @@ h3{
 }
 .responsive-video {
     position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
     overflow: hidden;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción original del video (9:16) */
 }
+
 .responsive-video iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
+}
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .heroInicio{
+        flex-direction: column;
+    }
+
+    .heroInicio img{
+        width: 100%;
+        order: 2;
+    }
+
+    .heroInicio div{
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .integrantes .cardIntegrantes {
+        width: 100%;
+    }
+
+    .videoNuevo iframe {
+        width: 100%;
+    }
+
+    .galeriaInicio div {
+        width: 100%;
+    }
+
+    .sectionTour {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
+
+    .footer-sections, .footer-social, .footer-copyright {
+        width: 100%;
+    }
+    .cardIntegrantes {
+        flex: 0 0 100%;
+    }
+    .responsive-video iframe {
+        margin: 0 auto; /* Centrar el iframe */
+        display: block;
+    }
+    .logrosNeckDeep {
+        padding: 16px; /* Ajuste del espacio interno en la versión móvil */
+    }
+
+    .cardIntegrantes {
+        margin-bottom: 16px; /* Espacio entre las tarjetas en la versión móvil */
+    }
 }

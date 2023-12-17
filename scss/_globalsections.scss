@@ -5,12 +5,45 @@
     justify-content: space-evenly;
     padding: $padding-grande;
     background-color:  $background-color-general;
+    .sectionTour-botones {
+        display: flex;
+        flex-direction: row;
+    }
 }
-.newsletterSuscribe{
+.newsletterSuscribe {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: $padding-grande;
     background-color: $background-color-general;
+}
+@media (min-width: 768px) {
+    .sectionTour {
+        flex-direction: row; /* Cambiar a row para pantallas más grandes */
+    }
+
+    .sectionTour-botones {
+        margin-top: 1rem; /* Añadir margen entre los botones en dispositivos más grandes si es necesario */
+    }
+    .newsletterSuscribe {
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .newsletterSuscribe div {
+        max-width: 50%;
+        text-align: left;
+    }
+}
+@media (max-width: 575px) {
+    .sectionTour {
+        flex-direction: column; /* Cambia a dirección de columna en dispositivos móviles */
+        text-align: center; /* Centra el texto en dispositivos móviles */
+    }
+
+    .sectionTour-botones {
+        margin-top: 1rem; /* Añade un margen superior para separar los botones */
+    }
 }

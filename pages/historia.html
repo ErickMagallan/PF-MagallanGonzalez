@@ -45,13 +45,12 @@
               </nav>
         </head>
         <main>
-          <section class="heroHistoria">
-            <div class="row-cols-1" style="padding-left: 80px; padding-right: 80px; padding-top: 160px;
-            padding-bottom: 160px;">
+          <section class="heroHistoria"  style="display: flex; flex-direction: row; flex-wrap: wrap;">
+            <div class="col-md-6 text-md-start text-sm-center heroContent" style="padding-left: 80px; padding-right: 80px; padding-top: 160px; padding-bottom: 80px;">
                 <h1 style="margin-bottom: 2rem;">Historia</h1>
-                <p>Descubre la fascinante trayectoria de Neck Deep, desde sus humildes raíces y el nacimiento de su sonido distintivo hasta su rica discografía que ha dejado huella en el mundo musical. Adéntrate en los relatos detrás de cada álbum y conoce a los talentosos individuos que, a lo largo de los años, han formado parte de esta icónica banda y han contribuido a su legado inigualable.</p>
+                <p style="margin-bottom: 1rem;">Descubre la fascinante trayectoria de Neck Deep, desde sus humildes raíces y el nacimiento de su sonido distintivo hasta su rica discografía que ha dejado huella en el mundo musical. Adéntrate en los relatos detrás de cada álbum y conoce a los talentosos individuos que, a lo largo de los años, han formado parte de esta icónica banda y han contribuido a su legado inigualable.</p>
             </div>   
-            <img class="row-cols-1" src="../assets/img/BenHistoria.png" alt="Ben Barlow cantando">
+            <img class="col-md-6 img-fluid" src="../assets/img/BenHistoria.png" alt="Ben Barlow cantando">
           </section>
 
             <!--Sección de Logros-->
@@ -89,8 +88,10 @@
                       </div>
                   </div>
           </section>  
-            <section class="videoHistoria"><!--En estas quiero que esté la imagen en un lado y el texto en el otro-->
-                <iframe width="600px" height="420px" style="border-radius: 20px;" src="https://www.youtube.com/embed/9XZHnNEmPlE?si=M-UkHm2KrR65AlH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          <!--
+                        <section class="videoHistoria">
+              <iframe width="600px" height="420px" style="border-radius: 20px;" src="https://www.youtube.com/embed/9XZHnNEmPlE?si=M-UkHm2KrR65AlH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div class="col-md-6">
                     <h2 style="margin-bottom: 2rem;">What did you expect? - Video</h2>
                     <div style="margin-bottom: 2rem;">
@@ -99,6 +100,28 @@
                     </div>
                 </div>
             </section>
+          -->
+          <section class="videoHistoria">
+            <div class="videoContainer">
+                <iframe src="https://www.youtube.com/embed/9XZHnNEmPlE?si=M-UkHm2KrR65AlH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h2 style="margin-bottom: 2rem;">What did you expect? - Video</h2>
+                <div style="margin-bottom: 2rem;">
+                    <p style="margin-bottom: 1rem;">"What Did You Expect?" es una de las canciones del EP debut titulado "Rain in July", lanzado en 2012. El video se convirtió en uno de los primeros indicios del potencial de la banda en sus primeros días.</p>
+                    <p>La canción, como muchas de sus otras pistas, toca temas emocionales y a menudo se relaciona con los altibajos de las relaciones y las luchas personales. El video, junto con la música, resonó en la comunidad pop punk, y la banda rápidamente ganó tracción y popularidad en la escena.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+
+
             <section class="integrantes">
                 <h2>Miembros anteriores</h2>
                 <ul class="row">
@@ -205,6 +228,6 @@
                 Neck Deep UK © 2023. Todos los derechos reservados.
             </div>
         </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

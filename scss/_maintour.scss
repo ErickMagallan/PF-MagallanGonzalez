@@ -1,15 +1,32 @@
 .heroTour{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: $gap-general;
     background-image: url(../assets/img/headTour.jpg);
     background-size: cover;
     color: $color-blanco;
 }
-.fechasTour{
+.fechasTour {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: $padding-grande;
+}
+
+@media (min-width: 768px) {
+    .fechasTour {
+        text-align: left;
+    }
+
+    .fechasTour .row {
+        justify-content: flex-start;
+    }
+
+    .fechasTour .card {
+        width: 100%;
+        max-width: 416px; /* Ajusta según sea necesario */
+        height: 450px;
+    }
 }

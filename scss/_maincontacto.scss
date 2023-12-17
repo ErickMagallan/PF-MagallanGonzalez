@@ -1,8 +1,28 @@
-.headContacto{
+.headContacto {
     display: flex;
     flex-direction: column;
     padding: $padding-grande;
     background-image: url(../assets/img/Ben\ Barlow.jpeg);
     background-size: cover;
-    color:$color-blanco;
+    color: $color-blanco;
+}
+
+@media (max-width: 768px) {
+    .headContacto .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headContacto div {
+        width: 100%;
+    }
+
+    .headContacto [class*="col-"] {
+        padding: 0; /* Ajuste para eliminar relleno */
+    }
+
+    .headContacto .btn {
+        width: 100%;
+    }
 }

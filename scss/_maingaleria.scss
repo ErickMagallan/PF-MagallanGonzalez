@@ -1,9 +1,9 @@
 
 .heroGaleria{
-    @include flexbox(row, center);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: $gap-general;
     background-image: url(../assets/img/headGaleria.jpg);
     background-size: cover;
     color: $color-blanco;
